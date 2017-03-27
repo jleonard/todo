@@ -1,0 +1,32 @@
+.app-body .list-item.focused .focus{
+  display: block;
+}
+
+.app-body .list-item.focused .inner{
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.app-body .list-item.focused .inner label{
+  font-size: 4rem;
+}
+
+@media all and (min-width: 768px) {
+
+  .app-body .list-item .inner{
+    transition-duration: 0.33s;
+    transition-property: all;
+  }
+
+  .app-body .list-item:not('.focused') .inner:hover{
+    transform: scale(1.25,1.25);
+    z-index: 2;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+  }
+}
