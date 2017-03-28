@@ -36,8 +36,8 @@
 			
 			<!-- the main section. this is where todo items appear -->
 			<section id="main" class='app-body'>
-				<input id="toggle-all" type="checkbox">
-				<label for="toggle-all">Mark all as complete</label>
+				<div id='actions'>
+				</div>
 				<ul id="todo-list" class='todo-list grid'></ul>
 			</section>
 
@@ -47,9 +47,9 @@
 		</section>
 
 
-		<footer id="info" class='footer-credits'>
+		<footer id="info" class='credits-footer'>
 			<p>Double-click to edit a todo</p>
-			<p>Based on <a href="http://todomvc.com">TodoMVC</a>. Created by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+			<p>Based on <a href="http://todomvc.com">TodoMVC</a>.<br/>Created by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
 		</footer>
 
 
@@ -64,7 +64,11 @@
 						<label class='center'>{{title}}</label>
 
 						<div class='list-item-control-bar horizontal-layout'>
-							<input class="toggle list-item-control" type="checkbox" {{#if completed}}checked{{/if}}>
+							<!--<input class="toggle list-item-control" type="checkbox" {{#if completed}}checked{{/if}}>-->
+							<button class="complete {{#if completed}}status-completed{{/if}} list-item-control">
+							{{#if completed}}Completed{{/if}}
+							{{#unless completed}}Mark Complete{{/unless}}
+							</button>
 							<button class="destroy list-item-control">Delete</button>
 						</div>
 						
@@ -91,6 +95,11 @@
 					<a {{#eq filter 'completed'}}class="selected"{{/eq}}href="#/completed">Completed</a>
 				</li>
 			</ul>
+		</script>
+
+		<script id='actions-template' type="text/x-handlebars=template">
+			<input id="toggle-all" type="checkbox">
+			<label for="toggle-all">Mark all as complete</label>
 			{{#if completedTodos}}<button id="clear-completed">Clear completed</button>{{/if}}
 		</script>
 

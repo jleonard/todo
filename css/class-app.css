@@ -1,0 +1,22 @@
+body{}
+
+/*
+ * The App Container
+ */
+.app{}
+
+/*
+ * The App Header
+ */
+.app-header{}
+.app-header .input-bar{}
+
+/*
+ * The App Body
+ */
+.app-body{}
+
+/*
+ * The App Footer
+ */
+.app-footer{}

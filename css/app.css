@@ -86,35 +86,6 @@ body{
   width: 50%;
 }
 
-.app-body .list-item input[type='checkbox']{
-  position: relative;
-}
-
-.app-body .list-item.completed input[type='checkbox']:before{
-  content: 'Completed!';
-}
-
-.app-body .list-item input[type='checkbox']:before{
-  display: block;
-  content: 'Complete';
-  
-  padding: 16px 24px;
-  background-color: #292929;
-  color: #777;
-  font-size: 0.75rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-right: 2px solid 222;
-  text-align: center;
-  cursor: pointer;
-}
-
-.app-body .list-item input[type='checkbox']:hover:before, .app-body .list-item button:hover{
-  background-color: #222;
-}
-
 .app-body .list-item button{
   background-color: #292929;
   padding: 16px 24px;
@@ -156,6 +127,12 @@ body{
 
 .app-footer a.selected{
   color: #777;
+}
+
+.credits-footer{
+  width: 90vw;
+  margin: 0 auto;
+  color: #444;
 }
 
 /* typography */

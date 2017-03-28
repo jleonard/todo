@@ -22,7 +22,7 @@
     transition-property: all;
   }
 
-  .app-body .list-item:not('.focused') .inner:hover{
+  .app-body .list-item:not(.focused) .inner:hover{
     transform: scale(1.25,1.25);
     z-index: 2;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
