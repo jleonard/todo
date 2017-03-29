@@ -1,5 +1,8 @@
+html{
+  font-size: 12px;
+}
+
 body{
-  font-size: 16px;
   font-family: 'Lato', sans-serif;
   background-color: #121212;
   color: white;
@@ -25,6 +28,7 @@ body{
   margin-left: 24px;
   display: block;
   border: 0;
+  border-bottom: 1px solid #444;
   font-size: 2.5rem;
   background-color: transparent;
   font-family: 'Lato', sans-serif;
@@ -92,7 +96,19 @@ body{
   color: #777;
   font-size: 0.75rem;
   border-left: 2px solid #222;
-  cursor: pointer;
+}
+
+.app-body .list-item button:hover{
+  color: white;
+  text-shadow: 2px 2px 2px #222;
+}
+
+.app-body .list-item .destroy:hover{
+  background-color: red;
+}
+
+.app-body .list-item .status-completed .fa-check{
+  color: green;
 }
 
 /* macro structure : app logic, toggling edit and view states */
@@ -127,6 +143,28 @@ body{
 
 .app-footer a.selected{
   color: #777;
+}
+
+.global-action-bar{
+  margin: 16px 0;
+}
+
+.global-action-bar input[type='checkbox']{
+  display: none;
+}
+
+.global-action{
+  display: inline-block;
+  padding: 8px 16px 8px 0;
+  color: #444;
+  background: none;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+
+.global-action:hover{
+  color: white;
 }
 
 .credits-footer{

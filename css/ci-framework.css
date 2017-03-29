@@ -21,10 +21,12 @@ ul li{
 button{
   border: none;
   border-radius: 0;
+  cursor: pointer;
 }
 
 a{
   text-decoration: none;
+  cursor: pointer;
 }
 
 .horizontal-layout {
