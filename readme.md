@@ -1,9 +1,16 @@
 # Crafting Interactions TodoMVC Hackathon
 
-## Getting started
-*Running the app locally*  
-To run the app locally you need to start a server on your computer.
-1. Open your Terminal. If you're using a Mac go to `Applications/Utilities/Terminal`. On Windows you want to follow [these instructions for launching the Command Prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089)
+## Tonight's mission is to build a TODO app.
+
+The functionality for the TODO app is mostly working. It's based on [todomvc](http://todomvc.com/) which is a website that allows developers to compare javascript frameworks by seeing how each one is used to implement the exact same TODO list. For tonight's class we're using the jQuery version because it's the easiest to pick up and experiment with.
+
+* You can work alone or in a group.
+* The project can be found on [codepen](https://codepen.io/jleonard/project/editor/DPErWZ/#0)
+* There's a task backlog on [Trello](https://trello.com/b/BWjsmmND/ci-todo). Slack me your email to get invited.
+
+
+
+> Below is the readme file from todomvc, the project tonight's class is based on.
 
 ---
 
