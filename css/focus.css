@@ -1,6 +1,0 @@
-/* List Item in Focused State */
-.app-body .list-item.focused{}
-
-.app-body .list-item.focused .focus{
-  display: block;
-}
