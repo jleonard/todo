@@ -1,15 +1,12 @@
-node_modules/jquery
-!node_modules/jquery/dist/jquery.js
+# osx noise
+.DS_Store
 
-node_modules/director
-!node_modules/director/build/director.js
+# svn & cvs
+.svn
+CVS
 
-node_modules/handlebars
-!node_modules/handlebars/handlebars.js
+*.log
+node_modules
+bower_components
 
-node_modules/todomvc-app-css
-!node_modules/todomvc-app-css/index.css
-
-node_modules/todomvc-common
-!node_modules/todomvc-common/base.js
-!node_modules/todomvc-common/base.css
+# project specific
