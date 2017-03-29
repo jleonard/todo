@@ -4,11 +4,25 @@
 
 The functionality for the TODO app is mostly working. It's based on [todomvc](http://todomvc.com/) which is a website that allows developers to compare javascript frameworks by seeing how each one is used to implement the exact same TODO list. For tonight's class we're using the jQuery version because it's the easiest to pick up and experiment with.
 
+Your job is to work from a comp and a task list to fill in the required style and functionality. I'm here to help answer questions and get you unstuck.
+
 * You can work alone or in a group.
 * The project can be found on [codepen](https://codepen.io/jleonard/project/editor/DPErWZ/#0)
 * There's a task backlog on [Trello](https://trello.com/b/BWjsmmND/ci-todo). Slack me your email to get invited.
+* The sketch file will be posted to the Slack channel. Note that it doesn't have all the states or responsive versions of the app. It's meant to be a starter to inform high-level pixel -> code translation.
+
+### Getting started
+
+There's a wiki with helpful material including...
+[Documentation on various CSS selectors](https://github.com/jleonard/todo/wiki/CSS-Selectors). 
+[A high level explainer on `rem` units](https://github.com/jleonard/todo/wiki/REM-Units) - I want you guys to try and size type with rem units as much as possible.  
+
+**The CSS Framework**  
+Nobody starts a project from scratch; developers work with exisitng reusable libraries. I've created [a basic css framework](https://github.com/jleonard/todo/wiki/The-CSS-Framework) to help you accompish some basic tasks.
 
 
+
+---
 
 > Below is the readme file from todomvc, the project tonight's class is based on.
 
